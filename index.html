@@ -53,13 +53,13 @@
   <p>Pick a door to see if you win the prize!</p>
   <div class="door-container">
     <div class="door" id="door1" onclick="chooseDoor(1)">
-      <img src="img/door.jpeg" alt="Door 1">
+      <img src="door.jpeg" alt="Door 1">
     </div>
     <div class="door" id="door2" onclick="chooseDoor(2)">
-      <img src="img/door.jpeg" alt="Door 2">
+      <img src="door.jpeg" alt="Door 2">
     </div>
     <div class="door" id="door3" onclick="chooseDoor(3)">
-      <img src="img/door.jpeg" alt="Door 3">
+      <img src="door.jpeg" alt="Door 3">
     </div>
   </div>
   <p class="message" id="message">Make your choice!</p>
@@ -69,9 +69,9 @@
   </div>
 
   <script>
-    const prizeImage = "img/prize.jpeg"; // Replace with the path to your prize image
-    const goatImage = "img/goat.jpeg";  // Replace with the path to your goat image
-    const doorImage = "img/door.jpeg";  // Replace with the path to your door image
+    const prizeImage = "prize.jpeg"; // Replace with the path to your prize image
+    const goatImage = "goat.jpeg";  // Replace with the path to your goat image
+    const doorImage = "door.jpeg";  // Replace with the path to your door image
 
     let prizeDoor = Math.floor(Math.random() * 3) + 1;
     let userChoice = null;
